@@ -1,0 +1,81 @@
+/* Set body font, background, and center content */
+body {
+    font-family: Arial, sans-serif;
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style login page image */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 200px;
+}
+
+/* Style login container */
+.login-container {
+    text-align: center;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Style input fields in login container */
+.login-container input {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Style login button */
+button {
+   font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px;
+    border: 10px solid rgb(170, 13, 73);
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: violet;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+/* Add hover effect for login button */
+button:hover {
+    background-color: rgb(199, 9, 104);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transform: translateY(5px);
+}
+
+/* Style bottom text under login form */
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Style anchor tags in body */
+body a {
+    color: rgb(170, 13, 73);
+    text-decoration: none;
+}

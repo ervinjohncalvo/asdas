@@ -1,0 +1,87 @@
+/* Center container and apply Notable font */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Notable', sans-serif;
+}
+
+/* Set body background and remove default margin/padding */
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style main heading */
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #333;
+}
+
+/* Style image with border and rounded corners */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(170, 13, 73);
+}
+
+/* Center buttons container */
+.twobuttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style first button */
+.b1{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px;
+    border: 10px solid rgb(170, 13, 73);
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: violet;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+/* Style second button */
+.b2{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 10px solid rgb(170, 13, 73);
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: violet;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+/* Add hover effect for buttons */
+button:hover {
+    background-color: rgb(199, 9, 104);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transform: translateY(1px);
+}
+
+/* Style anchor tags inside buttons */
+button a {
+    text-decoration: none;
+    color: black;
+}
